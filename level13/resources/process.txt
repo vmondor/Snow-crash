@@ -1,0 +1,11 @@
+level13 : g1qKMiRpXf53AWhDaU7FEkczr
+Process :
+    - ./level13
+    - gdb ./level13
+    - disass main
+    - break getuid
+    - run
+    - finish
+    - set $eax = 4242
+    - continue
+    - Get the flag = 2A31L79asukciNyi8uppkEuSx

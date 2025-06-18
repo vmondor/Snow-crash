@@ -1,0 +1,9 @@
+level08 : fiumuikeil55xe9cu4dood66h
+Process :
+    - ls -la
+    - ./level08
+    - ./level08 token
+    - ln -s /home/user/level08/token /tmp/link
+    - ./level08 /tmp/link = quif5eloekouj29ke0vouxean
+    - su flag08 password : quif5eloekouj29ke0vouxean
+    - getflag = 25749xKZ8L7DkSCwJkT9dyv6f

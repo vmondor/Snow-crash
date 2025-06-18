@@ -1,0 +1,14 @@
+level14 : 2A31L79asukciNyi8uppkEuSx
+Process :
+    - ls -la
+    - find / -name getflag 2> /dev/null
+    - gdb /bin/getflag
+    - need to bypass ptrace and change uid to 3014
+    - break ptrace
+    - finish
+    - set $eax = 0 #ptrace return 1 if deboguer so we bypass by changing the value to 0
+    - continue
+    - finish
+    - set $eax = 3014 # uid of the flag14
+    - continue
+    - Get the flag = 7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ

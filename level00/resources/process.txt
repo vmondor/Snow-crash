@@ -1,0 +1,10 @@
+Level00 : level00
+Process :
+    - Find / -user flag00 2> /dev/null
+    - Cat john's file
+    - Decrypt with ceasar code  (cdiiddwpgswtgt = nottoohardhere)
+    - su flag00 passwd : nottoohardhere
+    - Launch getflag = x24ti5gi3x0ol2eh4esiuxias
+
+
+    https://www.apprendre-en-ligne.net/crypto/cesar/decrypt.html

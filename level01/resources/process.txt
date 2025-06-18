@@ -1,0 +1,6 @@
+level01 : x24ti5gi3x0ol2eh4esiuxias
+Process :
+    - Cat /etc/passwd
+    - Decrypt with JTR (42hDRfypTqqnw = abcdefg)
+    - su flag01 passwd : abcdefg
+    - Launch getflag = f2av5il02puano7naaf6adaaf

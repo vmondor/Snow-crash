@@ -1,0 +1,8 @@
+level02 : f2av5il02puano7naaf6adaaf
+Process :
+    - Launch : scp  -P 4242 level02@192.168.56.102:/home/user/level02/level02.pcap .
+    - Open with wireshark level02.pcap
+    - Follow TCP Stream
+    - With assci's table decrypt passwd (ft_wandr...NDRel.L0L = ft_waNDReL0L)
+    - su flag02 passwd : ft_waNDReL0L
+    - Launch getflag = kooda2puivaav1idi4f57q8iq

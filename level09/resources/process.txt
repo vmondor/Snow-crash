@@ -1,0 +1,9 @@
+level09 : 25749xKZ8L7DkSCwJkT9dyv6f
+Process :
+    - ls -la
+    - cat token
+    - ./level09 token
+    - scp -P 4242 level09@192.168.56.103:/home/user/level09/token .
+    - ./a.out "$(<token )" = f3iji1ju5yuevaus41q1afiuq
+    - su flag09 password : f3iji1ju5yuevaus41q1afiuq
+    - getflag = s5cAJpM8ev6XHw998pRWG728z

